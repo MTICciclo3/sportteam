@@ -3,7 +3,7 @@ const products = [
     id: 1,
     name: "",
     description: "",
-    price: 0,
+    price: 10,
     gender: "men",
     type: "",
     img: "",
