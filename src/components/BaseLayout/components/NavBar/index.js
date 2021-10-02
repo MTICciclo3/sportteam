@@ -11,12 +11,12 @@ const Navbar = () => (
     <div className="nav-links">
       <ul>
         <li><NavLink activeClassName="selected" className="nav-link" exact to="/Home">Home</NavLink></li>
-
+        <li><NavLink activeClassName="selected" className="nav-link" to="/women">Mujeres</NavLink></li>
+        <li><NavLink activeClassName="selected" className="nav-link" to="/men">Hombres</NavLink></li>
+        <li><NavLink activeClassName="selected" className="nav-link" to="/children">Niños</NavLink></li>
       </ul>
     </div>
-    <div className="shopping-cart">
-      <NavLink to="/cart"><Icon medium></Icon></NavLink>
-    </div>
+   
   </nav>
 );
 
